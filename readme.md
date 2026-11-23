@@ -1,27 +1,27 @@
-# pre-commit
+# prek
 
-Configuration for [pre-commit][1].
+Configuration for [prek][1].
 
 ## run
 
 ### staged
 
 ```bash
-pre-commit run
+prek run
 ```
 
 ### all
 
 ```bash
-pre-commit run --all-files
+prek run --all-files
 ```
 
 ## hooks installation
 
 ```bash
-pre-commit install
+prek install
 ```
 
 ---
 
-[1]: https://github.com/pre-commit/pre-commit "pre-commit"
+[1]: https://github.com/j178/prek
