@@ -11,3 +11,6 @@ list:
 
 prek: install
   @prek run
+
+run:
+  @bun run index.ts
