@@ -3,9 +3,12 @@ repos:
     rev: 3.11.1
     hooks:
       - id: editorconfig-checker
+        name: Check editorconfig rules
         alias: ec
   - repo: https://github.com/managanemeke/sloc-sensor
     rev: 0.2.0
     hooks:
       - id: sloc-sensor
-        args: ["--limit", "13"]
+        name: Check commit rules
+        alias: cm
+        args: ["--limit", "26"]
