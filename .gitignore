@@ -1,2 +1,5 @@
 .idea
+node_modules
+bun.lock
 message.txt
+package-lock.json
