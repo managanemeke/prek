@@ -12,5 +12,8 @@ list:
 prek: install
   @prek run
 
-run:
+run: install
   @bun run index.ts
+
+test: install
+  @bun test index.test.ts
