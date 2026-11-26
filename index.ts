@@ -1,4 +1,4 @@
-const truncate = (
+export const truncate = (
   text: string,
   length: number,
 ): string => {
@@ -9,4 +9,6 @@ const truncate = (
   return characters.slice(0, limit - 1).join("") + "…";
 }
 
-console.log(truncate("Hello, mister!", 6));
+if (import.meta.main) {
+  console.log(truncate("Hello, mister!", 6));
+}
