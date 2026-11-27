@@ -10,3 +10,5 @@
 
 !/.pre-commit-config.yaml
 !/eslint.config.mjs
+!/index.test.ts
+!/index.ts
