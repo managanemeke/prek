@@ -1,5 +1,12 @@
-.idea
-node_modules
-bun.lock
-message.txt
-package-lock.json
+*
+
+!.editorconfig
+!.gitattributes
+!.gitignore
+!justfile
+!package.json
+!readme.md
+!tsconfig.json
+
+!/.pre-commit-config.yaml
+!/eslint.config.mjs
