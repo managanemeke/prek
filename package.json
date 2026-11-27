@@ -3,6 +3,10 @@
   "description": "do something",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
   "devDependencies": {
     "@stylistic/eslint-plugin": "6.0.1",
     "@types/bun": "^1.4.5",
