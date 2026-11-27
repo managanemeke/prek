@@ -12,3 +12,5 @@
 !/eslint.config.mjs
 !/index.test.ts
 !/index.ts
+
+!/docs/
