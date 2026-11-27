@@ -1,5 +1,7 @@
 {
   "name": "package",
+  "description": "do something",
+  "version": "0.0.0",
   "private": true,
   "devDependencies": {
     "@stylistic/eslint-plugin": "6.0.1",
