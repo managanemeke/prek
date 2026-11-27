@@ -1,8 +1,8 @@
-# package
+# prek
 
-Do something.
+Configuration for prek.
 
-```bash
+```nushell
 gh repo clone managanemeke/prek
 cd prek
 just run
